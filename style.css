@@ -1,0 +1,31 @@
+body {
+        font-family: 'Lancelot', cursive;
+        font-weight: 500;
+}
+
+@media (min-width: 390px) { /* Small devices (landscape phones, 576px and up) */
+    .text-xs { font-size: 4rem; }
+
+  }
+
+@media (min-width: 576px) { /* Small devices (landscape phones, 576px and up) */
+    .text-sm { font-size: 1.2rem; }
+  }
+  
+  @media (min-width: 768px) { /* Medium devices (tablets, 768px and up) */
+    .text-md { font-size: 1.5rem; }
+
+    img {
+        height: 90vh;
+        width: 90vw;
+      }
+  }
+  
+  @media (min-width: 992px) { /* Large devices (desktops, 992px and up) */
+    .text-lg { font-size: 1.75rem; }
+  }
+  
+  @media (min-width: 1200px) { /* Extra large devices (large desktops, 1200px and up) */
+    .text-xl { font-size: 5rem; }
+  }
+  
